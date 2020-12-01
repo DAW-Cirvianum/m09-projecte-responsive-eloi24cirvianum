@@ -9,6 +9,12 @@ body
     width: 100%;
 }
 
+#titol{
+    display: block;
+    position: fixed;
+
+}
+
 #menuToggle
 {
     display: block;
