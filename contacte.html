@@ -11,51 +11,85 @@
 </head>
 <body>
 <div class="titol">
-
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="#"><li>Inici</li></a>
+                <a href="#"><li>Articles</li></a>
+                <a href="#"><li>Qui som</li></a>
+                <a href="#"><li>Contacte</li></a>
+                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+            </ul>
+        </div>
+    </nav>
 </div>
-<nav role="navigation">
-    <div id="menuToggle">
-
-        <input type="checkbox" />
-
-        <span></span>
-        <span></span>
-        <span></span>
-
-        <ul id="menu">
-            <a href="#"><li>Inici</li></a>
-            <a href="#"><li>Articles</li></a>
-            <a href="#"><li>Qui som</li></a>
-            <a href="#"><li>Contacte</li></a>
-            <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-        </ul>
-    </div>
-</nav>
 <div class="fonsmain">
-    <div class="titolcontacte">
+    <div class="col-md-9 mb-md-0 mb-5">
+        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="name" name="name" class="form-control">
+                        <label for="name" class="">Your name</label>
+                    </div>
+                </div>
+                <!--Grid column-->
 
-    </div>
-    <div class="formulari">
-        <div class="assumptecontacte">
-            Assumpte
+                <!--Grid column-->
+                <div class="col-md-6">
+                    <div class="md-form mb-0">
+                        <input type="text" id="email" name="email" class="form-control">
+                        <label for="email" class="">Your email</label>
+                    </div>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="md-form mb-0">
+                        <input type="text" id="subject" name="subject" class="form-control">
+                        <label for="subject" class="">Subject</label>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+
+                    <div class="md-form">
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+
+                </div>
+            </div>
+            <!--Grid row-->
+
+        </form>
+
+        <div class="text-center text-md-left">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
         </div>
-        <input type="text" name="assumpte">
-        <div class="correucontacte">
-            Correu de contacte
-        </div>
-        <input type="text" name="correucontacte">
-    </div>
-    <div class="contingutcontacte">
-        Contingut del missatge
-        <input type="text" name="contingutcontacte">
+        <div class="status"></div>
     </div>
 </div>
 
 <footer class="footer">
 
 </footer>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
