@@ -22,7 +22,7 @@ body {
     display: block;
     position: fixed;
     top: 25px;
-    left: 50px;
+    left: 25px;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
