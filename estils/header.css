@@ -1,5 +1,4 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
     background: white;
@@ -7,16 +6,18 @@ body
     font-family: "Avenir Next", "Avenir", sans-serif;
     height: 100%;
     width: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-image: url("data:image/jpeg;base64,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");
 }
 
-#titol{
+#titol {
     display: block;
     position: fixed;
 
 }
 
-#menuToggle
-{
+#menuToggle {
     display: block;
     position: fixed;
     top: 25px;
@@ -28,20 +29,17 @@ body
     user-select: none;
 }
 
-#menuToggle a
-{
+#menuToggle a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
-{
+#menuToggle a:hover {
     color: tomato;
 }
 
-#menuToggle input
-{
+#menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
@@ -54,8 +52,7 @@ body
     -webkit-touch-callout: none;
 }
 
-#menuToggle span
-{
+#menuToggle span {
     display: block;
     width: 33px;
     height: 4px;
@@ -65,43 +62,39 @@ body
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
     opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
     transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
-#titol{
+
+#titol {
     position: fixed;
 }
-#menu
-{
+
+#menu {
     position: fixed;
     width: 40%;
     height: 100%;
@@ -116,16 +109,14 @@ body
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
 
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-#menu li
-{
+#menu li {
     padding: 10px 0;
     font-size: 22px;
 }
 
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
     transform: none;
 }
