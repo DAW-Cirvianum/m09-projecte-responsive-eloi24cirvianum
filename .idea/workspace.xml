@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ef2a4d-e7db-4fd6-a40f-473fa4777eaa" name="Default Changelist" comment="dff" />
+    <list default="true" id="a5ef2a4d-e7db-4fd6-a40f-473fa4777eaa" name="Default Changelist" comment="dff">
+      <change beforePath="$PROJECT_DIR$/quisom.html" beforeDir="false" afterPath="$PROJECT_DIR$/quisom.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606833731967</updated>
       <workItem from="1606833733036" duration="6482000" />
-      <workItem from="1607015933431" duration="1763000" />
+      <workItem from="1607015933431" duration="2464000" />
     </task>
     <servers />
   </component>
