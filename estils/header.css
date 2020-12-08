@@ -8,7 +8,7 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     background-image: url("../img/movilebackgraund.jpeg");
-
+    background-attachment: fixed;
 }
 
 /*header*/
