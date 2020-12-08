@@ -9,29 +9,37 @@
     <link rel="stylesheet" href="estils/header.css">
     <title>Llistat Articles</title>
 </head>
+
 <body>
-<div class="titol">
+<header class="header">
+    <h1 class="logo"><a href="#">Descripció Article</a></h1>
+</header>
 
-</div>
-<div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html"><li>Inici</li></a>
-    <a href="llistatArticles.html"><li>Articles</li></a>
-    <a href="quisom.html"><li>Qui som</li></a>
-    <a href="contacte.html"><li>Contacte</li></a>
-</div>
-
-<div class="fonsmain">
-    <div class="titolarticle">
-
+<nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <a href="index.html"><li>Inici</li></a>
+            <a href="llistatArticles.html"><li>Articles</li></a>
+            <a href="quisom.html"><li>Qui som</li></a>
+            <a href="contacte.html"><li>Contacte</li></a>
+        </ul>
     </div>
+</nav>
 
-    <div class="descarticle">
-
+<div class="flex-container">
+    <div class="row">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
     </div>
 </div>
 
-<footer class="flex-rw">
+<footer class="flex-rw" style="bottom: 0; position: fixed;">
     <section class="footer-social-section flex-rw">
       <span class="footer-social-overlap footer-social-connect">
       CONNECT <span class="footer-social-small">with</span> US
