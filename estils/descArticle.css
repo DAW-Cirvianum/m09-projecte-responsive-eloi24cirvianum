@@ -1,13 +1,25 @@
 
 .container-flex{
+    margin: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30vh;
+    border: 5px solid white;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+
 }
 
 .flex-items{
+    height: 100%;
     max-width: 50%;
 
+
+}
+
+.flex-descripcio{
+    border: 5px solid black;
+    border-radius: 20px 20px 20px 20px;
 }
 
