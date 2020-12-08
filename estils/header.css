@@ -116,6 +116,12 @@ body {
 #menuToggle input:checked ~ ul {
     transform: none;
 }
+.pagina{
+    text-align: center;
+    background-color: whitesmoke;
+    height: 60px;
+    padding-top: 10px;
+}
 
 /*footer*/
 
