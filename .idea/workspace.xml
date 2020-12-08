@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ef2a4d-e7db-4fd6-a40f-473fa4777eaa" name="Default Changelist" comment="footer">
+    <list default="true" id="a5ef2a4d-e7db-4fd6-a40f-473fa4777eaa" name="Default Changelist" comment="footer posat a tots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contacte.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/descArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/llistatArticles.html" beforeDir="false" afterPath="$PROJECT_DIR$/llistatArticles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quisom.html" beforeDir="false" afterPath="$PROJECT_DIR$/quisom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +73,16 @@
       <updated>1606833731967</updated>
       <workItem from="1606833733036" duration="6482000" />
       <workItem from="1607015933431" duration="1763000" />
-      <workItem from="1607434535722" duration="1648000" />
+      <workItem from="1607434535722" duration="2466000" />
     </task>
+    <task id="LOCAL-00001" summary="footer posat a tots">
+      <created>1607437843754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607437843754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer" />
+    <MESSAGE value="footer posat a tots" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer posat a tots" />
   </component>
 </project>
