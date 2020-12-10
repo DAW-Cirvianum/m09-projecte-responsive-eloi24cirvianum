@@ -1,0 +1,274 @@
+body
+  margin: 0
+  padding: 0
+  background: white
+  color: black
+  font-family: "Avenir Next", "Avenir", sans-serif
+  height: 100%
+  width: 100%
+  background-repeat: no-repeat
+  background-image: url("../img/movilebackgraund.jpeg")
+  background-attachment: fixed
+
+#titol
+  display: block
+  position: fixed
+
+#menuToggle
+  display: block
+  position: fixed
+  top: 25px
+  left: 25px
+  z-index: 1
+  -webkit-user-select: none
+  user-select: none
+
+  a
+    text-decoration: none
+    color: #232323
+    transition: color 0.3s ease
+
+    &:hover
+      color: tomato
+
+  input
+    display: block
+    width: 40px
+    height: 32px
+    position: absolute
+    top: -7px
+    left: -5px
+    cursor: pointer
+    opacity: 0
+
+    /* hide this
+    z-index: 2
+
+    /* and place it over the hamburger
+    -webkit-touch-callout: none
+
+  span
+    display: block
+    width: 33px
+    height: 4px
+    margin-bottom: 5px
+    position: relative
+    background: #cdcdcd
+    border-radius: 3px
+    z-index: 1
+    transform-origin: 4px 0
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease
+
+    &:first-child
+      transform-origin: 0 0
+
+    &:nth-last-child(2)
+      transform-origin: 0 100%
+
+  input:checked ~ span
+    opacity: 1
+    transform: rotate(45deg) translate(-2px, -1px)
+    background: #232323
+
+    &:nth-last-child(3)
+      opacity: 0
+      transform: rotate(0deg) scale(0.2, 0.2)
+
+    &:nth-last-child(2)
+      transform: rotate(-45deg) translate(0, -1px)
+
+#titol
+  position: fixed
+
+#menu
+  position: fixed
+  width: 50%
+  height: 200%
+  margin: -100px 0 0 -50px
+  padding: 50px
+  padding-top: 125px
+  background: lightgrey
+  list-style-type: none
+  -webkit-font-smoothing: antialiased
+  transform-origin: 0
+  transform: translate(-100%, 0)
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1)
+
+  li
+    padding: 10px 0
+    font-size: 22px
+
+#menuToggle input:checked ~ ul
+  transform: none
+
+.pagina
+  text-align: center
+  background-color: whitesmoke
+  height: 60px
+  padding-top: 10px
+
+/*footer
+
+footer
+  ul
+    list-style: none
+
+  a
+    text-decoration: none
+
+.generic-anchor
+  color: #8DB9ED
+
+  &:visited
+    color: #8DB9ED
+
+  &:hover
+    color: #ccc
+
+.flex-rw
+  display: flex
+  flex-flow: row wrap
+
+footer
+  background: #373737
+  margin-top: auto
+  width: 100%
+
+.footer-social-section
+  width: 100%
+  align-items: center
+  justify-content: space-around
+  position: relative
+  margin-top: 5px
+
+  &::after
+    content: ""
+    position: absolute
+    z-index: 1
+    top: 50%
+    left: 10px
+    border-top: 1px solid #ccc
+    width: calc(100% - 20px)
+
+.footer-social-overlap
+  position: relative
+  z-index: 2
+  background: #373737
+  padding: 0 20px
+
+.footer-social-connect
+  display: flex
+  align-items: center
+  font: 3.5em "Oswald", sans-serif
+  color: #fff
+
+.footer-social-small
+  font-size: 0.6em
+  padding: 0 20px
+
+.footer-social-overlap > a
+  font-size: 3em
+
+  &:not(:first-child)
+    margin-left: 0.38em
+
+.footer-bottom-section
+  width: 100%
+  padding: 10px
+  border-top: 1px solid #ccc
+  margin-top: 10px
+
+  > div:first-child
+    margin-right: auto
+
+.footer-bottom-wrapper
+  font-size: 1.5em
+  color: #fff
+
+.footer-address
+  display: inline
+  font-style: normal
+
+@media only screen and (max-width: 768px)
+  .footer-list-header
+    font-size: 2em
+
+  .footer-list-anchor
+    font-size: 1.1em
+
+  .footer-social-connect
+    font-size: 2.5em
+
+  .footer-social-overlap > a
+    font-size: 2.24em
+
+  .footer-bottom-wrapper
+    font-size: 1.3em
+
+@media only screen and (max-width: 568px)
+  main
+    font-size: 5em
+
+  .footer-list-top
+    width: 100%
+
+  .footer-list-header
+    font-size: 3em
+
+  .footer-list-anchor
+    font-size: 1.5em
+
+  .footer-social-section
+    justify-content: center
+
+    &::after
+      top: 25%
+
+  .footer-social-connect
+    margin-bottom: 10px
+    padding: 0 10px
+
+  .footer-social-overlap
+    display: flex
+    justify-content: center
+
+  .footer-social-icons-wrapper
+    width: 100%
+    padding: 0
+
+  .footer-social-overlap > a:not(:first-child)
+    margin-left: 20px
+
+  .footer-bottom-section
+    padding: 0 5px 10px 5px
+
+  .footer-bottom-wrapper
+    text-align: center
+    width: 100%
+    margin-top: 10px
+
+@media only screen and (max-width: 480px)
+  .footer-social-overlap > a
+    margin: auto
+
+    &:not(:first-child)
+      margin-left: 0
+
+  .footer-bottom-rights
+    display: block
+
+@media only screen and (max-width: 320px)
+  .footer-list-header
+    font-size: 2.2em
+
+  .footer-list-anchor
+    font-size: 1.2em
+
+  .footer-social-connect
+    font-size: 2.4em
+
+  .footer-social-overlap > a
+    font-size: 2.24em
+
+  .footer-bottom-wrapper
+    font-size: 1.3em
