@@ -206,12 +206,6 @@ footer {
     font-style: normal;
 }
 @media only screen and (max-width: 768px) {
-    .footer-list-header {
-        font-size: 2em;
-    }
-    .footer-list-anchor {
-        font-size: 1.1em;
-    }
     .footer-social-connect {
         font-size: 2.5em;
     }
@@ -223,15 +217,6 @@ footer {
     }
 }
 @media only screen and (max-width: 568px) {
-    main {
-        font-size: 5em;
-    }
-    .footer-list-top {
-        width: 100%;
-    }
-    .footer-list-header {
-        font-size: 3em;
-    }
     .footer-list-anchor {
         font-size: 1.5em;
     }
@@ -277,12 +262,7 @@ footer {
     }
 }
 @media only screen and (max-width: 320px) {
-    .footer-list-header {
-        font-size: 2.2em;
-    }
-    .footer-list-anchor {
-        font-size: 1.2em;
-    }
+
     .footer-social-connect {
         font-size: 2.4em;
     }
@@ -293,3 +273,18 @@ footer {
         font-size: 1.3em;
     }
 }
+
+@media only screen and (min-width: 480px) {
+
+    body{
+        background-image: url("../img/desktopbackgraund.jpg");
+    }
+}
+@media only screen and (min-width: 768px) {
+
+    footer{
+        bottom: 0;
+        position: fixed;
+    }
+}
+
