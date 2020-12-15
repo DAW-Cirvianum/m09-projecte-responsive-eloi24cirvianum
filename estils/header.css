@@ -281,11 +281,5 @@ footer {
         background-image: url("../img/desktopbackgraund.jpg");
     }
 }
-@media only screen and (min-height: 810px) and (min-width: 768px){
-    footer{
-        bottom: 0;
-        position: fixed;
-    }
-}
 
 

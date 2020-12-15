@@ -25,6 +25,9 @@
     grid-column-end: 4;
 }
 
-footer{
-    position: static;
+@media only screen and (min-height: 810px) and (min-width: 768px){
+    footer{
+        bottom: 0;
+        position: fixed;
+    }
 }
