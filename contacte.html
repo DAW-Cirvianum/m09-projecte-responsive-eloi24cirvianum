@@ -35,15 +35,9 @@
     </nav>
 </div>
 
-<div class="col-md-9 mb-md-0 mb-5 justify-content-center mt-3">
-    <form id="contact-form" name="contact-form" action="mail.php" method="POST" class="">
-        <!--Grid row-->
-        <div class="row">
-            <!--Grid column-->
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-6">
+<div class="mb-md-3 mb-5 mt-3  container">
+    <form id="contact-form" name="contact-form" action="mail.php" method="POST" class="w-100">
+            <div class="col-md-12">
                 <div class="md-form mb-0">
                     <input type="text" id="email" name="email" class="form-control">
                     <label for="email" class="">Correu</label>
@@ -51,43 +45,34 @@
             </div>
             <!--Grid column-->
 
+
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="col-md-12">
+        <div class="md-form mb-0">
+            <input type="text" id="text" name="text" class="form-control">
+            <label for="email" class="">Subjecte</label>
         </div>
+    </div>
         <!--Grid row-->
 
         <!--Grid row-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="md-form mb-0">
-                    <input type="text" id="subject" name="subject" class="form-control">
-                    <label for="subject" class="">Subjecte</label>
-                </div>
-            </div>
+        <div class="col-md-12">
+        <div class="md-form mb-0">
+            <input type="text" id="Subject" name="text" class="form-control">
+            <label for="email" class="">Contingut</label>
         </div>
+    </div>
         <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-md-12">
-
-                <div class="md-form">
-                    <textarea type="text" id="message" name="message" rows="2"
-                              class="form-control md-textarea"></textarea>
-                    <label for="message">Missatge</label>
-                </div>
-
-            </div>
+        <div class="text-center ">
+            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
         </div>
-        <!--Grid row-->
-
+        <div class="status"></div>
+</div>
     </form>
 
-    <div class="text-center text-md-left">
-        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-    </div>
-    <div class="status"></div>
-</div>
+
 
 <footer class="flex-rw" style="bottom: 0; position: fixed;">
     <section class="footer-social-section flex-rw">
