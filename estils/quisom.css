@@ -25,6 +25,24 @@
     grid-column-end: 4;
 }
 
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
 @media only screen and (min-height: 810px) and (min-width: 768px){
     footer{
         bottom: 0;
