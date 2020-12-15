@@ -43,6 +43,10 @@
     height: 100%;
 }
 
+ul{
+    list-style: none;
+}
+
 @media only screen and (min-height: 830px) and (max-width: 1010px){
     footer{
         bottom: 0;
