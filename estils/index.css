@@ -4,3 +4,11 @@
         position: fixed;
     }
 }
+
+@media only screen and (min-width: 768px){
+    footer{
+        bottom: 0;
+        position: fixed;
+    }
+}
+
